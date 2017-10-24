@@ -1,0 +1,6 @@
+Regel -> Ir Gend Was .
+Ir -> Bla .
+Gend -> Noch Was2
+ anderes .
+Was2 -> .
+Regel -> .
