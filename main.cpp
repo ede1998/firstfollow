@@ -47,7 +47,7 @@ int main() {
                         std::istreambuf_iterator<char>());
     Node *n = parseGrammar();
     std::cout << n->recursivePrint() << std::endl;
-    auto firstSets = calcFirst(*static_cast<Grammar *>(n));
+    auto firstSets = calcFirst(*dynamic_cast<Grammar *>(n));
     for (auto tmp: firstSets) {
         std::cout << tmp.first << std::endl;
         for (auto tmp1: tmp.second) {
